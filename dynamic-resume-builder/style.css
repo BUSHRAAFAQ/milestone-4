@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: aquamarine;
+}
+form{
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+}
+
+    .profile-picture{
+        width: 150px;
+        height:150px;
+        margin-top: 10%;
+        border-radius:50%;
+        border:5px solid #a939e6;
+        margin-bottom: 20px;
+    
+    }
+    h1 {
+        font-size: 25px;
+        margin: 10px 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    h3{
+    
+        font-size: 18px;
+        padding: 2%;
+        margin: 20px 0 10px;
+        color: black;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #e63939;
+        margin-top: 5%;
+}
+ul{
+    list-style-type:fill round;
+    padding:10;
+    margin:10px 0;
+} 
+ul li{
+    margin: 5px 0;
+
+}
+.right-section {
+ padding:20px;
+width: 65%;
+ 
+}

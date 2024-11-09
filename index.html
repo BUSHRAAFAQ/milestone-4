@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href ="style.css" >
+</head>
+<body>
+   <h1><b>Dynamic Resume Builder</b> "Bushra Afaq" <img src="logo.B.jpeg" width="100px" height="100px"></h1>
+   
+   <form id ="resume-form"></form>
+   <fieldset>
+    <lagend>Personal Information</lagend>
+    <lable for="name"><b>Name:</b></lable>
+    <input type="text" id="name" placeholder="Enter your name"required>
+
+    <lable for="name"><b>Phone:</b></lable>
+    <input type="tel" id ="phone" placeholder="Enter your number"required>
+
+    <lable for="email"><b>E-mail:</b></lable>
+    <input type="email" id="email" placeholder="Enter your E-mail adress"required>
+
+    <lable for="linkedIn"><b>Linkedin:</b></lable>
+    <input type="linkedIn" id="linkedIn" placeholder="Enter your Linkedin ID"required>
+
+   </fieldset>
+   <fieldset>
+    <lagend><b>"Education:"</b></lagend>
+
+        <textarea id ="education"placeholder="Enter your Education" rows="5" required></textarea>
+    
+   </fieldset>
+      <fieldset>
+
+        <lable for ="skills"> <b>"Skills":</b></lable>
+        <textarea id ="skills"placeholder="Enter your skills" rows="5" required></textarea>
+    
+   </fieldset>
+   <botton type="submit"><strong>Generate Resume Below</strong></botton>
+   </form>
+   <br>
+   <div id="resume-display"></div>
+   <main src="main.js"></main>
+</body>
+</html>
