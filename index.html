@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Resume Builder</title>
+    <title>Editable Resume Builder</title>
     <link rel="stylesheet" href ="style.css" >
 </head>
 <body>
-   <h1><b>Dynamic Resume Builder</b> "Bushra Afaq" <img src="logo.B.jpeg" width="100px" height="100px"></h1>
+   <h1><b>Editable Resume Builder</b> "Bushra Afaq" <img src="logo.B.jpeg" width="100px" height="100px"></h1>
    
    <form id ="resume-form"></form>
    <fieldset>
@@ -37,10 +37,10 @@
         <textarea id ="skills"placeholder="Enter your skills" rows="5" required></textarea>
     
    </fieldset>
-   <botton type="submit"><strong>Generate Resume Below</strong></botton>
+   <botton type="submit">Generate Resume Below</botton>
    </form>
    <br>
-   <div id="resume-display"></div>
+   <div id="resume-display" contenteditable="true"></div>
    <main src="main.js"></main>
 </body>
 </html>

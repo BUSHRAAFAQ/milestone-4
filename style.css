@@ -11,6 +11,7 @@ form{
     box-shadow: 4px 8px rgb(10, 0, 0);
     padding:20px;
     max-width: 600px;
+    border-radius: 8px;
 
 }
 h1{
@@ -29,29 +30,39 @@ fieldset{
 legend{
     font-weight: bold;
     text-align: left;
-    margin-bottom: 10px;
     color: rgb(8, 7, 7);
 }
 label{
-    font-family: 'Times New Roman', Times, serif;
+    
     display: block;
     margin-top: 10px;
     color: rgb(0, 0, 0);
 
 }
 input,textarea{
-    font-family: 'Times New Roman', Times, serif;
+
     margin-top: 4px;
     padding:8px;
     width: calc(100%-1px);
-    border: 1px solid rgb(231, 220, 220);
+    border: 1px solid rgb(75, 70, 142);
     border-radius: 4px;
+    box-sizing: border-box;
+}
+#resume-display{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px ;
+    border-radius: 8px;
+    background-color: azure;
+    box-shadow: 0 4px 8px rgb(18, 2, 2);
+    outline:none;
+    border:2px solid rgb(75, 75, 136);
+
 }
 button{
     display: block;
     width: 100px;
     margin-top: 15px;
-    padding: 8px 16px;
     background-color: rgb(24, 118, 118);
     color: black;
     border:none;
@@ -64,5 +75,5 @@ button{
     cursor: pointer;
 }
 button:hover{
-    color: rgb(4, 4, 50);
+    color: rgb(53, 53, 239);
 }
