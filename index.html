@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editable Resume Builder</title>
+    <title>Sharable Resume Builder</title>
     <link rel="stylesheet" href ="style.css" >
 </head>
 <body>
-   <h1><b>Editable Resume Builder</b> "Bushra Afaq" <img src="logo.B.jpeg" width="100px" height="100px"></h1>
+   <h1><b>Shareable Resume Builder</b> "Bushra Afaq" <img src="logo.B.jpeg" width="100px" height="100px"></h1>
    
    <form id ="resume-form"></form>
    <fieldset>
     <lagend>Personal Information</lagend>
+
+    <lable for="username"><b>Name:</b></lable>
+    <input type="text" id="username" placeholder="Enter your username"required>
+
     <lable for="name"><b>Name:</b></lable>
     <input type="text" id="name" placeholder="Enter your name"required>
 
@@ -30,7 +34,9 @@
 
         <textarea id ="education"placeholder="Enter your Education" rows="5" required></textarea>
     
+        
    </fieldset>
+   <link href="http://127.0.0.1:5501/">
       <fieldset>
 
         <lable for ="skills"> <b>"Skills":</b></lable>
@@ -41,6 +47,13 @@
    </form>
    <br>
    <div id="resume-display" contenteditable="true"></div>
+
+   <br>
+   <div id="Shareable-link-container "style ="display:none;"> </div>
+<h2>Shareable Link</h2>
+<p>This is me "BUSHRA AFAQ"here is your elelite link to view or edit your resume:</p>
+<a href="#" id="Shareable-link"target="_blank"></a>
+<br><botton id="download-pdf"><b>Download as PDF</b></botton>
    <main src="main.js"></main>
 </body>
 </html>
